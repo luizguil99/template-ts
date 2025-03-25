@@ -17,3 +17,6 @@ export function useIsMobile() {
 
   return !!isMobile
 }
+
+// Add the useMobile export that matches the import in navbar.tsx
+export const useMobile = useIsMobile;
